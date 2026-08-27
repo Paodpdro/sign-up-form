@@ -37,9 +37,7 @@ main {
     justify-content: space-between;
 }
 
-.right-side {
-    flex: 3;
-}
+
 
 .logo-container {
     display: flex;
@@ -66,7 +64,7 @@ main {
     margin-bottom: 10px;
  }
 
-.img-reference p, a {
+.img-reference p, .img-reference a {
     color: white;
     font-size: 0.7rem;
     text-align: center;
@@ -75,4 +73,89 @@ main {
 .right-side {
     display: flex;
     flex-direction: column;
+}
+
+.right-side {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: whitesmoke;
+}
+
+.right-top {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+form {
+    font-family: sans-serif;
+}
+
+#fieldset {
+    background-color: white;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 90px;
+}
+
+.input-cell {
+    display: flex;
+    flex-direction: column;
+}
+
+form legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+form label {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+form input {
+    border: #E5E7EB solid 2px;
+    border-radius: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+input:focus {
+    border: 2px blue solid;
+}
+
+input:user-invalid {
+    border: 2px solid red;
+}
+
+form button {
+    margin: 20px 50px;
+    padding: 15px 50px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 9px 11px -2px rgba(0,0,0,0.22);
+}
+
+.right-bot {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.right-bot a {
+    color: #596D48;
 }
