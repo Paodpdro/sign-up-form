@@ -18,8 +18,49 @@
             </div>
         </div>
         <div class="right-side">
-            <div></div>
-            <form action="/submit-form" method="post"></form>
+            <div class="right-top">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="/submit-form" method="post">
+                <div>
+                    <legend>Let's do this!</legend>
+                    <div class="form-row">
+                        <div class="input-cell">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="input-cell">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-cell">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="input-cell">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-cell">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="input-cell">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pass" name="confirm-pass">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <div>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </main>
 </body>
