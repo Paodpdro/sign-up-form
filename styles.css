@@ -12,12 +12,63 @@
     font-style: normal;
 }
 
-p {
-    font-family: norse;
-    font-weight: bold;
+body {
+    margin: 0;
+    /* padding: 0 100px 0 100px; */
 }
 
-h2 {
-    font-family: norse;
-    font-weight: normal;
+p {
+    margin: 0;
+    font-family: sans-serif;
 }
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-side {
+    background-image: url('media/signup-bg.jpg') ;
+    background-size:cover;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-side {
+    flex: 3;
+}
+
+.logo-container {
+    display: flex;
+    background-color: hsl(0, 0%, 1%, 0.5);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.logo-container p {
+    font-family: norse;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo-container img {
+    height: 120px;
+}
+ .img-reference {
+    margin-bottom: 10px;
+ }
+
+.img-reference p, a {
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
